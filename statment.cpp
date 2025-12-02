@@ -1,5 +1,11 @@
 #include <iostream>
 
+
+int num_sum(int a, int b){
+	int x_sum = a + b;
+	return x_sum;
+}
+
 int main(){
 
 	// Statement is line of code which ends with ;
@@ -9,12 +15,7 @@ int main(){
 	int sum = firstnumber + secondnumber;
 	std::cout << "The sum of numbers are " << sum << std::endl;
 
-	int  sum_num(int a,int b){
-		int sum_1 =  a + b;
-		return sum_1;
-	}
-
-	int x  = sum_num(3,7);
+	int x  = num_sum(3,7);
 	printf("%d",x);
 
 	return 0;
