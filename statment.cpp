@@ -6,6 +6,11 @@ int num_sum(int a, int b){
 	return x_sum;
 }
 
+int prod(int c, int d){
+	int product = c * d;
+	return product;
+}
+
 int main(){
 
 	// Statement is line of code which ends with ;
@@ -17,6 +22,9 @@ int main(){
 
 	int x  = num_sum(3,7);
 	printf("%d",x);
+
+	int p = prod(12, 4);
+	printf("%d", p);
 
 	return 0;
 }
