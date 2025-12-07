@@ -19,12 +19,13 @@ int main(){
 	int secondnumber = 10;
 	int sum = firstnumber + secondnumber;
 	std::cout << "The sum of numbers are " << sum << std::endl;
+	printf("%d\n",sum);
 
 	int x  = num_sum(3,7);
-	printf("%d",x);
+	printf("%d\n",x);
 
 	int p = prod(12, 4);
-	printf("%d", p);
+	printf("%d\n", p);
 
 	return 0;
 }
