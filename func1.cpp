@@ -15,5 +15,11 @@ int main(){
 
 	std::cout << "Sum is " << sum << std::endl;
 
+
+	// Alternative way to do is
+	
+
+	std::cout << "Difference is " << firstnum - secondnum << std::endl;
+
 	return 0;
 }
