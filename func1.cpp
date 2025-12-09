@@ -9,5 +9,11 @@ int main(){
 	std::cout << "First Number: "<< firstnum << std::endl;
 	std::cout << "Second Numebr: " << secondnum << std::endl;
 
+	/* operations on variable */
+
+	int sum = firstnum + secondnum;
+
+	std::cout << "Sum is " << sum << std::endl;
+
 	return 0;
 }
