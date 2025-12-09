@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main(){
 
@@ -14,6 +15,14 @@ int main(){
 	std::cin >> age;
 
 	std::cout << "Hello " << name << "! You are " << age << " years old." << std::endl;
+
+
+	/* We can also take both input at the same time */
+
+	std::cout << "Give your name and age : " << std::endl;
+	std::cin >>name >> age;
+
+	std::cout << "Hi " << name << " You are " << age << " years old." << std::endl;
 
 	return 0;
 
