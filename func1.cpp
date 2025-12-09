@@ -1,6 +1,13 @@
 #include <iostream>
 
 
+/* Defining a function*/
+
+int prodt(int x, int y){
+	return x * y;
+}
+
+
 int main(){
 
 	int firstnum {14};
@@ -20,6 +27,13 @@ int main(){
 	
 
 	std::cout << "Difference is " << firstnum - secondnum << std::endl;
+
+
+	// Product using defined func
+	
+
+	int product = prodt(firstnum, secondnum);
+	std::cout << "The product is " << product << std::endl;
 
 	return 0;
 }
